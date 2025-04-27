@@ -4,6 +4,7 @@
 .navbar-brand,
 .nav-link {
   color: var(--font-color-white);
+  font-weight: var(--font-weight-bold);
   &.active {
     color: var(--red-color);
   }

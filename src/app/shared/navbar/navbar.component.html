@@ -23,18 +23,19 @@
               class="nav-link"
               aria-current="page"
               href="#"
-              (click)="onClickedNavLink('home')"
-              [ngClass]="{ active: activatedNavLink === 'home' }"
-              >Home</a
+              (click)="onClickedNavLink('profile')"
+              [ngClass]="{ active: activatedNavLink === 'profile' }"
+              >Profile</a
             >
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
               href="#"
-              (click)="onClickedNavLink('link1')"
-              [ngClass]="{ active: activatedNavLink === 'link1' }"
-              >Link1</a
+              routerLink="/form"
+              (click)="onClickedNavLink('form')"
+              [ngClass]="{ active: activatedNavLink === 'form' }"
+              >Form</a
             >
           </li>
           <li class="nav-item dropdown">
