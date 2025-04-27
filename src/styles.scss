@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  // color
+  --primary-color: #1976d2;
+  --secondary-color: #f50057;
+  --navbar-bg-color: #002d52;
+  --red-color: red;
+
+  // positions
+  --position-fixed: fixed;
+  --position-absolute: absolute;
+  --position-static: static;
+  --position-sticky: sticky;
+  --position-relative: relative;
+
+  // left
+  --left-0-per: 0%;
+  --left-25-per: 25%;
+  --left-50-per: 50%;
+  --left-100-per: 100%;
+
+  // right
+  --right-0-per: 0%;
+  --right-25-per: 25%;
+  --right-50-per: 50%;
+  --right-100-per: 100%;
+
+  // gap
+  --gap-40-px: 40px;
+
+  // visibility
+  --visibility-hidden: hidden;
+  --visibility-visible: visible;
+
+  //  font
+  --font-color-white: white;
+
+  // border
+  --border-0-px: 0;
+  --border-1-px: 1px;
+}
